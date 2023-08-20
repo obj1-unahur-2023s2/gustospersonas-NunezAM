@@ -1,26 +1,27 @@
 import colores.*
 import materiales.*
+import objetos.*
 
 object rosa {
-	method legusta(algo) {
+	method leGusta(algo) {
 		return algo.peso() <= 2000
 	}
 }
 
 object estefania {
-	method legusta(algo) {
+	method leGusta(algo) {
 		return algo.color().esFuerte()
 	}
 }
 
 object luisa {
-	method legusta(algo) {
+	method leGusta(algo) {
 		return algo.material().esBrillante()
 	}
 }
 
 object juan {
-	method legusta(algo) {
+	method leGusta(algo) {
 		return ( !algo.color().esFuerte() || algo.peso().between(1200, 1800))
 	}
 }

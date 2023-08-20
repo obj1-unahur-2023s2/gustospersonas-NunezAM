@@ -21,3 +21,8 @@ object pardo {
 		return false
 	}
 }
+
+object naranja {
+	
+	method esFuerte() = true
+}
